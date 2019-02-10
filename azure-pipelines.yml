@@ -1,6 +1,12 @@
 # Recommened editor for this file: https://github.com/Microsoft/azure-pipelines-vscode
 name: rust
 
+resources:
+  repositories:
+  - repository: self
+    checkoutOptions:
+      submodules: true
+
 # Note:
 # for sccache to work, you'll need to provide the backend connection information
 # I opted for an Azure Storage account I set up in the same region as

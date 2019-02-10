@@ -5,7 +5,7 @@ resources:
   repositories:
   - repository: self
     checkoutOptions:
-      submodules: true
+      submodules: false
 
 # Note:
 # for sccache to work, you'll need to provide the backend connection information

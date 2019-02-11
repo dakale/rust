@@ -40,9 +40,9 @@ jobs:
       HOST_IMAGE: ubuntu-16.04
     strategy:
       matrix:
-        x86_64-gnu-llvm-5.0:
-          RUST_BACKTRACE: 1
-        # if: type = pull_request OR branch = auto
+        # x86_64-gnu-llvm-5.0:
+        #   RUST_BACKTRACE: 1
+        # # if: type = pull_request OR branch = auto
 
         dist-x86_64-linux:
           DEPLOY: 1
